@@ -82,7 +82,7 @@
  cd $DEF
 
  if [ -f $HOME/.cabal/bin/cabal ]; then
-  echo "GHC successfully installed!"
+  echo "Cabal successfully installed!"
   $HOME/.cabal/bin/cabal --version
  else
   echo "Installation error!"
