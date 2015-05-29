@@ -6,7 +6,7 @@ To install seamlessly the desired versions, and to switch between them, you can 
 
 You might need to install the following libraries to have ghc and cabal work :
 
-sudo apt-get install -y libgmp-dev zlib1g-dev libgmp3-dev freeglut3 freeglut3-dev libreadline6
+sudo apt-get install -y libgmp-dev curl zlib1g-dev libgmp3-dev freeglut3 freeglut3-dev libreadline6
 
 And create the following simlink for old versions of ghc :
 
