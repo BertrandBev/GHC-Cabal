@@ -76,6 +76,7 @@
   echo "GHC successfully installed!"
   $GHC_HOME/ghc --version
  else
+  rm -rf $DIR/ghc-$VER
   echo "Installation error!"
  fi
 
