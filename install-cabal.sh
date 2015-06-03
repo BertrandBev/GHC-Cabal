@@ -6,6 +6,8 @@
  echo "###################"
  echo ""
  
+ mkdir -p $HOME/Downloads
+ 
  echo "Available Cabal versions"
  PS3='Install which version ? '
  select VER in '1.22.3.0' '1.22.2.0' '1.22.0.0' '1.20.0.3' '1.20.0.2' '1.20.0.1' '1.20.0.0' '1.18.1.6' '1.18.1.5' '1.18.1.4' '1.18.1.3' '1.18.1.2' '1.18.1.1' '1.18.1' '1.18.0'
