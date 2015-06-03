@@ -9,6 +9,9 @@
  read -e -p "Installation dir (default : $DEF) ? " DIR
  DIR=${DIR:-$DEF}
  echo $DIR 
+ 
+ mkdir -p $HOME/Downloads
+ mkdir -p $DIR
 
  echo "Available GHC versions"
  PS3='Install which version ? '
